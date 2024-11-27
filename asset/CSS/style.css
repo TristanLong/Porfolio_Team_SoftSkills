@@ -9,16 +9,16 @@
     background: linear-gradient(-45deg, #B6C0C5, #18A5A7);
     box-shadow: 5rem 0 10rem rgba(0, 0, 0, 0.3);
     text-align: center;
-    padding-top: 2rem;
+}
+
+.intro__leader--img{
+    width: 30rem;
+    height: 30rem;
 }
 
 .intro__leader--name{
     color: white;
     font-size: 4.8rem;
-}
-
-.intro__leader--img{
-    margin-bottom: 2rem;
 }
 
 .intro__leader--des{
@@ -31,6 +31,11 @@
     display: flex;
     justify-content: space-around;
     list-style-type: none;
+    margin-top: 2rem;
+}
+
+.fa-brands:hover{
+    color: #18A5A7;
 }
 
 /* END LEADER */
@@ -56,6 +61,7 @@
 .intro__member--name{
     color: gray;
 }
+
 /* END TEAM MEMBERS */
 
 
