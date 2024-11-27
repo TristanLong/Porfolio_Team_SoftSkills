@@ -1,0 +1,62 @@
+/* INTRODUCTION */
+.intro{
+    width: 100vw;
+    height: 100vh;
+}
+
+/* LEADER */
+.intro__leader{
+    background: linear-gradient(-45deg, #B6C0C5, #18A5A7);
+    box-shadow: 5rem 0 10rem rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.intro__leader--name{
+    color: white;
+    font-size: 4.8rem;
+}
+
+.intro__leader--img{
+    margin-bottom: 2rem;
+}
+
+.intro__leader--des{
+    color: white;
+    font-size: 2.4rem;
+    padding: 0 5rem;
+}
+
+.intro__leader--social{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+/* END LEADER */
+
+/* TEAM MEMBERS */
+.intro__member{
+    text-align: center;
+}
+
+.intro__member--title{
+   font-size: 15rem;
+}
+
+.intro__member--card{
+    margin-top: 2rem;
+}
+
+.intro__member--img{
+    width: 20rem;
+    height: 20rem;
+}
+
+.intro__member--name{
+    color: gray;
+}
+/* END TEAM MEMBERS */
+
+
+/* END INTRODUCTION */

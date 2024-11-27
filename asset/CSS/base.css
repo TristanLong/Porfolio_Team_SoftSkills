@@ -1,0 +1,15 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+/* IMAGE */
+.image{
+    border-radius: 50%;
+}
+
+.image:hover{
+    border: solid .3rem aqua;
+    cursor: pointer;
+}
+/* END IMAGE */
